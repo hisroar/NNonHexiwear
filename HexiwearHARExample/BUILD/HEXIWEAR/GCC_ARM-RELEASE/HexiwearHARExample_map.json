@@ -1,0 +1,152 @@
+[
+    {
+        "module": "FXAS21002/FXAS21002.o",
+        "size": {
+            ".text": 234,
+            ".data": 0,
+            ".bss": 0
+        }
+    },
+    {
+        "module": "FXOS8700/FXOS8700.o",
+        "size": {
+            ".text": 268,
+            ".data": 0,
+            ".bss": 0
+        }
+    },
+    {
+        "module": "MPL3115A2/MPL3115A2.o",
+        "size": {
+            ".text": 84,
+            ".data": 0,
+            ".bss": 104
+        }
+    },
+    {
+        "module": "[fill]",
+        "size": {
+            ".text": 503,
+            ".data": 7,
+            ".bss": 2134
+        }
+    },
+    {
+        "module": "[lib]/c.a",
+        "size": {
+            ".text": 69431,
+            ".data": 2548,
+            ".bss": 127
+        }
+    },
+    {
+        "module": "[lib]/gcc.a",
+        "size": {
+            ".text": 7432,
+            ".data": 0,
+            ".bss": 0
+        }
+    },
+    {
+        "module": "[lib]/m.a",
+        "size": {
+            ".text": 788,
+            ".data": 0,
+            ".bss": 0
+        }
+    },
+    {
+        "module": "[lib]/misc",
+        "size": {
+            ".text": 248,
+            ".data": 8,
+            ".bss": 28
+        }
+    },
+    {
+        "module": "[lib]/nosys.a",
+        "size": {
+            ".text": 32,
+            ".data": 0,
+            ".bss": 0
+        }
+    },
+    {
+        "module": "[lib]/stdc++.a",
+        "size": {
+            ".text": 173167,
+            ".data": 141,
+            ".bss": 5676
+        }
+    },
+    {
+        "module": "main.o",
+        "size": {
+            ".text": 2316,
+            ".data": 0,
+            ".bss": 393
+        }
+    },
+    {
+        "module": "mbed-os/drivers",
+        "size": {
+            ".text": 1582,
+            ".data": 0,
+            ".bss": 44
+        }
+    },
+    {
+        "module": "mbed-os/hal",
+        "size": {
+            ".text": 1445,
+            ".data": 4,
+            ".bss": 68
+        }
+    },
+    {
+        "module": "mbed-os/platform",
+        "size": {
+            ".text": 3279,
+            ".data": 260,
+            ".bss": 145
+        }
+    },
+    {
+        "module": "mbed-os/rtos",
+        "size": {
+            ".text": 10530,
+            ".data": 168,
+            ".bss": 9977
+        }
+    },
+    {
+        "module": "mbed-os/targets",
+        "size": {
+            ".text": 7905,
+            ".data": 12,
+            ".bss": 1056
+        }
+    },
+    {
+        "module": "models/dnn6_2.o",
+        "size": {
+            ".text": 350556,
+            ".data": 0,
+            ".bss": 1
+        }
+    },
+    {
+        "module": "uTensor/uTensor",
+        "size": {
+            ".text": 6709,
+            ".data": 0,
+            ".bss": 7
+        }
+    },
+    {
+        "summary": {
+            "static_ram": 22908,
+            "total_flash": 639657
+        }
+    }
+]

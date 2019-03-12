@@ -1,0 +1,34 @@
+syntax: glob
+.hg
+.git
+.svn
+.CVS
+.cvs
+*.orig
+BUILD
+.build
+.export
+.msub
+.meta
+.ctags*
+*.uvproj
+*.uvopt
+*.project
+*.cproject
+*.launch
+*.ewp
+*.eww
+/Makefile
+Debug
+*.htm
+.mbed
+*.settings
+mbed_settings.py
+*.py[cod]
+# subrepo ignores
+FXAS21002
+Hexi_KW40Z
+FXOS8700
+MPL3115A2
+Hexi_OLED_SSD1351
+mbed-os

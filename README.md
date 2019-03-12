@@ -1,8 +1,11 @@
 # NNonHexiwear
+
 A workflow to help get started on implementing neural networks on Hexiwear using Mbed. [Hexiwear] is chosen because of its rich sensor ecosystem. The Hexiwear docking station is probably necessary to flash the binary files from Mbed.
 
 ### Included things
+
 The following things are included in NNonHexiwear:
+
 | Directory | Description |
 | --------- | ----------- |
 | [Functions/] | A script that acquires and labels time-series data from Hexiwear over serial (USB) |
@@ -10,6 +13,7 @@ The following things are included in NNonHexiwear:
 | [HexiwearHARExample/] | An example/template project for implementing a neural network in Mbed for use on Hexiwear |
 
 ### Getting started
+
 NNonHexiwear allows you to implement neural networks on Hexiwear, but can probably be extended to work on other embedded systems.
 
 A general workflow to implement a neural network on Hexiwear would be:

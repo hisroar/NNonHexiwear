@@ -1,8 +1,6 @@
 # Hexiwear ReadData
 
-### Usage
-
-### ReadData Quick-start
+## ReadData Quick-start
 
 ```sh
 $ cd ReadData/
@@ -13,9 +11,9 @@ $ # and press reset button to start program
 $ python3 get_data.py /dev/tty.usbmodem[PORT] [label] # -h for help
 ```
 
-### Description
+## Description
 
-#### [HexiwearReadData/]
+### [HexiwearReadData/]
 
 [HexiwearReadData/] contains an Mbed project for Hexiwear. It includes the necessary libraries to read data from the IMU sensors, as well as other libraries, which are all listed below.
 
@@ -31,7 +29,7 @@ The file [HexiwearReadData/main.cpp] contains the main loop code run on Hexiwear
 
 The code has been commented for ease of reuse. To run on Hexiwear all one needs to do is `make compile` and then drag and drop the binary file `./HexiwearReadData/BUILD/HEXIWEAR/GCC_ARM/HexiwearReadData.bin` to Hexiwear.
 
-#### [get_data.py]
+### [get_data.py]
 
 [get_data.py] is a Python script designed to retrieve time-series IMU sensor data from Hexiwear over serial (USB). It writes a string over serial to Hexiwear to begin data acquisition, and then reads in the formatted data, and parses it. It  writes the data to files in `output/`.
 

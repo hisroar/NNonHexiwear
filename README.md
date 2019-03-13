@@ -6,7 +6,7 @@ A workflow to help get started on implementing neural networks on Hexiwear using
 
 The following things are included in NNonHexiwear:
 
-| Directory | Description |
+| Click for README | Description |
 | --------- | ----------- |
 | [Functions/] | A script that acquires and labels time-series data from Hexiwear over serial (USB) |
 | [HAR_TF_Example/] | An example of an implementation of a neural network for human activity recognition using Tensorflow |

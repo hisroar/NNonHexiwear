@@ -1,8 +1,8 @@
-# Hexiwear Data Retrieval Functions
+# Hexiwear Functions
 
 ## Included
 
-| Directory | Description |
+| Click for README | Description |
 | --------- | ----------- |
 | [ReadData/] | Read IMU sensor data from Hexiwear over serial (USB) |
 

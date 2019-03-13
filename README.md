@@ -28,6 +28,8 @@ If you already have data, check out [HAR_TF_Example/] to train a Neural Network.
 
 Once you have a .pd file, try putting it on Hexiwear using [HexiwearHARExample/].
 
+For guidance on how to set up the environment for running Tensorflow, check out [HAR_TF_Example/] For guidance on how to set up an Mbed project from scratch, check out [HexiwearHARExample/].
+
 ### Possible TODOs
 
  - Add more data to the data collection, and collect it without needing serial (BLE?).

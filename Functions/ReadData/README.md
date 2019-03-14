@@ -3,12 +3,12 @@
 ## ReadData Quick-start
 
 ```sh
-$ cd ReadData/
-$ make compile
-$ # flash Hexiwear with binary file located in:
-$ # ./HexiwearReadData/BUILD/HEXIWEAR/GCC_ARM/HexiwearReadData.bin
-$ # and press reset button to start program
-$ python3 get_data.py /dev/tty.usbmodem[PORT] [label] # -h for help
+cd ReadData/
+make compile
+# flash Hexiwear with binary file located in:
+# ./HexiwearReadData/BUILD/HEXIWEAR/GCC_ARM/HexiwearReadData.bin
+# and press reset button to start program
+python3 get_data.py /dev/tty.usbmodem[PORT] [label] # -h for help
 ```
 
 ## Description
@@ -38,7 +38,7 @@ Also heavily commented for ease of reuse. Code is meant to be a starting point f
 The command usage is described below:
 
 ```sh
-$ python3 get_data.py [SERIAL_PATH] [LABEL] -b [BAUD_RATE] -o [OUTPUT_FILE] -n [NUM_ITERS] -p [PERIOD]
+python3 get_data.py [SERIAL_PATH] [LABEL] -b [BAUD_RATE] -o [OUTPUT_FILE] -n [NUM_ITERS] -p [PERIOD]
 ```
 
 | Option | Description |

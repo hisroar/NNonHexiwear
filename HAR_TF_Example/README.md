@@ -4,9 +4,9 @@
 
 Open [HAR_TF_Example.ipynb] for more details.
 
-Run all in order to get a `.pb` file in the `[output/]` directory, or just use the previously trained `.pb` files in the directory.
+Run all in order to get a `.pb` file in the [output/] directory, or just use the previously trained `.pb` files in the directory.
 
-Copy the `[output/]` directory over to `[HexiwearHARExample/]` to be able to implement the model on Hexiwear.
+Copy the [output/] directory over to [HexiwearHARExample/] to be able to implement the model on Hexiwear.
 
 A quick TL;DR of the notebook:
 
@@ -83,7 +83,7 @@ Otherwise, you can run each cell individually by pressing `Shift + Enter` while 
 
 Training the neural network will take a long time, feel free to play around with the training iterations, but the overall accuracy should be around 70%. 
 
-Under the heading "Save the DNN as a .pb file", you can change the name of the `.pb` file. After it has been saved, copy the `[output/]` directory over to `[HexiwearHARExample/]` to be able to implement the model on Hexiwear.
+Under the heading "Save the DNN as a .pb file", you can change the name of the `.pb` file. After it has been saved, copy the [output/] directory over to [HexiwearHARExample/] to be able to implement the model on Hexiwear.
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 

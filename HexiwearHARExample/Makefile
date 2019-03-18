@@ -31,7 +31,7 @@ all:
 compile: main.cpp
 	$(MBED) compile -m $(TARGET) -t GCC_ARM --profile=$(PROFILE)
 
-models: $(NN_PATH)$(NN)
+models: $(NN_PATH)$(NN).pb
 	$(UTENSOR) convert $(NN_PATH)$(NN).pb --output-nodes=$(OUTPUT_NODE)
 	$(ECHO) "\n\n*** Make sure to add '#include \"$(MODELS_DIR)$(NN).hpp\"' to main.cpp ***\n\n"
 

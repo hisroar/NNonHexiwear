@@ -2,9 +2,9 @@
 
 ## Notebook overview
 
-Open [HAR_TF_Example.ipynb][./HAR_TF_Example.ipynb] for more details.
+Open [HAR_TF_Example.ipynb] for more details.
 
-Run all in order to get a .pb file in the [output/][./output] directory, or just use the previously trained .pb files in the directory.
+Run all in order to get a .pb file in the [output/] directory, or just use the previously trained .pb files in the directory.
 
 Copy the [output/] directory over to [HexiwearHARExample/] to be able to implement the model on Hexiwear.
 
@@ -80,3 +80,5 @@ jupyter notebook
    [Anaconda]: <https://www.anaconda.com/distribution/>
    [TF-GPU]: <https://towardsdatascience.com/tensorflow-gpu-installation-made-easy-use-conda-instead-of-pip-52e5249374bc>
    [HAR_TF_Example.ipynb]: <https://github.com/hisroar/NNonHexiwear/blob/master/HAR_TF_Example/HAR_TF_Example.ipynb>
+   [output/]: <https://github.com/hisroar/NNonHexiwear/tree/master/HAR_TF_Example/output>
+   [HexiwearHARExample/]: <https://github.com/hisroar/NNonHexiwear/tree/master/HexiwearHARExample>

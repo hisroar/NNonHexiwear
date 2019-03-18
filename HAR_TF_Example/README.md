@@ -1,5 +1,21 @@
 # An example of human activity recognition using Tensorflow
 
+## Notebook overview
+
+Open [HAR_TF_Example.ipynb][./HAR_TF_Example.ipynb] for more details.
+
+Run all in order to get a .pb file in the [output/][./output] directory, or just use the previously trained .pb files in the directory.
+
+Copy the [output/] directory over to [HexiwearHARExample/] to be able to implement the model on Hexiwear.
+
+A quick TL;DR of the notebook:
+
+  - I used UCI's HAR dataset.
+  - I used Tensorflow to train a DNN to recognize different human activities (about 70% success rate).
+  - After training the DNN, it is saved as a .pb file, which will be translated into C code by uTensor.
+
+Follow the set-up instructions below if you want to run the notebook.
+
 ## Getting started
 
 ### Tensorflow
@@ -10,7 +26,7 @@ To install Anaconda, go to [their website][Anaconda] and follow the instructions
 
 Once Anaconda is installed (meaning you can run `conda`):
 
-#### If you have a dedicated GPU (e.g. Nvidia or AMD, this will speed up training):
+### If you have a dedicated GPU (e.g. NVIDIA or AMD, this will speed up training):
 
 I followed [this guide][TF-GPU]. Skip to the section "The Award Winning New Approach". TL;DR below.
 
@@ -36,7 +52,7 @@ Now you should be able to open and run the notebook.
 jupyter notebook
 ```
 
-#### Otherwise (no dedicated GPU):
+### Otherwise (no dedicated GPU):
 
 First, update Anaconda.
 ```sh
@@ -59,22 +75,8 @@ Now you should be able to open and run the notebook.
 jupyter notebook
 ```
 
-## Notebook overview
-
-I am using UCI's HAR dataset. 
-
-## ReadData Quick-start
-
-```sh
-$ cd ReadData/
-$ make compile
-$ # flash Hexiwear with binary file located in:
-$ # ./HexiwearReadData/BUILD/HEXIWEAR/GCC_ARM/HexiwearReadData.bin
-$ # and press reset button to start program
-$ python3 get_data.py /dev/tty.usbmodem[PORT] [label] # -h for help
-```
-
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [Anaconda]: <https://www.anaconda.com/distribution/>
    [TF-GPU]: <https://towardsdatascience.com/tensorflow-gpu-installation-made-easy-use-conda-instead-of-pip-52e5249374bc>
+   [HAR_TF_Example.ipynb]: <https://github.com/hisroar/NNonHexiwear/blob/master/HAR_TF_Example/HAR_TF_Example.ipynb>

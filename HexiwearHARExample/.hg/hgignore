@@ -26,9 +26,5 @@ Debug
 mbed_settings.py
 *.py[cod]
 # subrepo ignores
-FXAS21002
-Hexi_KW40Z
-FXOS8700
-MPL3115A2
-Hexi_OLED_SSD1351
 mbed-os
+uTensor

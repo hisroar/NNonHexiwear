@@ -18,6 +18,7 @@ make compile
 # flash Hexiwear with binary file located in:
 # ./HexiwearReadData/BUILD/HEXIWEAR/GCC_ARM/HexiwearReadData.bin
 # and press reset button to start program
+pip install pyserial
 python3 get_data.py /dev/tty.usbmodem[PORT] [label] # -h for help
 ```
 

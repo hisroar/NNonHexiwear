@@ -2,6 +2,15 @@
 
 ## ReadData Quick-start
 
+Tested on macOS. To get it working on Ubuntu, you will have to jump through some hoops to get Mercurial installed (need version >= 4.7, 4.5.2 is installed by default on Ubuntu 18.02).
+
+To get everything working, install the following:
+
+  - [Python 3.7]
+  - [Mbed-cli]: follow instructions on page to install. Make sure you set up the `ARM_PATH`.
+
+Once everything is installed, all you should need to do is:
+
 ```sh
 cd ReadData/
 mbed deploy
@@ -53,6 +62,8 @@ python3 get_data.py [SERIAL_PATH] [LABEL] -b [BAUD_RATE] -o [OUTPUT_FILE] -n [NU
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
+   [Mbed-cli]: <https://os.mbed.com/docs/mbed-os/v5.11/tools/installation-and-setup.html>
+   [Python 3.7]: <https://www.python.org/downloads/>
    [HexiwearReadData/]: <https://github.com/hisroar/NNonHexiwear/tree/master/Functions/ReadData/HexiwearReadData>
    [get_data.py]: https://github.com/hisroar/NNonHexiwear/blob/master/Functions/ReadData/get_data.py
    [HexiwearReadData/main.cpp]: https://github.com/hisroar/NNonHexiwear/blob/master/Functions/ReadData/HexiwearReadData/main.cpp

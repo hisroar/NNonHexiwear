@@ -1,6 +1,6 @@
 # An example Mbed project for implementing HAR on Hexiwear
 
-Before trying this project out, it may be easier to get [this simple NN] working. It has a more thorough guide on how to setup an Mbed/uTensor project from scratch. Just replace `K66F` with `hexiwear` when compiling.
+Before trying this project out, it may be easier to get [this simple NN] working (the guide is for developing in MacOS). It has a more thorough guide on how to setup an Mbed/uTensor project from scratch. Just replace `K66F` with `hexiwear` when compiling.
 
 ## HexiwearHARExample Quick-start
 
@@ -17,7 +17,6 @@ Once everything is installed, all you should need to do is:
 
 ```sh
 mbed deploy
-mbed add https://github.com/uTensor/uTensor 
 make all
 ```
 
@@ -82,4 +81,4 @@ The variable `OUTPUT_NODE` should be the name of the output variable of the NN i
    [CoolTerm]: <http://freeware.the-meiers.org/>
    [this simple NN]: <https://blog.hackster.io/simple-neural-network-on-mcus-a7cbd3dc108c>
    [this article]: <https://developer.android.com/reference/android/hardware/SensorEvent.html#values>
-   [this issue]: <https://github.com/ARMmbed/mbed-cli/issues/859>
+   [this issue]: <https://github.com/ARMmbed/mbed-cli/issues/859> 

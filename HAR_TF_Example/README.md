@@ -18,6 +18,8 @@ Follow the set-up instructions below if you want to run the notebook.
 
 ## Getting started
 
+As a warning, we could not get the notebook to run the training on a Macbook, only on a desktop (which has as dedicated GPU). If you are in this situation, I recommend using the `.pb` files in the [output/] directory. The files are suffixed with `n_l`, where `n` is the number of inputs (3 is for only accelerometer xyz, 6 is for accelerometer xyz and gyroscope rpy), and `l` is the number of layers in the DNN. We recommend `6_2`, as it yields better accuracy than `3_4` but is smaller than `6_4`.
+
 ### Tensorflow
 
 To start, you must install Tensorflow. From what I've read online, it's probably best if you work in an Anaconda environment (also, this way you can open and run my .ipynb using Jupyter Notebook).

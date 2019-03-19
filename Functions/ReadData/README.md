@@ -12,8 +12,9 @@ To get everything working, install the following:
 Once everything is installed, all you should need to do is:
 
 ```sh
-cd ReadData/
+cd ReadData/HexiwearReadData
 mbed deploy
+cd ..
 make compile
 # flash Hexiwear with binary file located in:
 # ./HexiwearReadData/BUILD/HEXIWEAR/GCC_ARM/HexiwearReadData.bin

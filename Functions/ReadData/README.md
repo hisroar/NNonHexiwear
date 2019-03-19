@@ -4,6 +4,7 @@
 
 ```sh
 cd ReadData/
+mbed deploy
 make compile
 # flash Hexiwear with binary file located in:
 # ./HexiwearReadData/BUILD/HEXIWEAR/GCC_ARM/HexiwearReadData.bin

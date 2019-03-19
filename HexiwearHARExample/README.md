@@ -4,18 +4,24 @@ Before trying this project out, it may be easier to get [this simple NN] working
 
 ## HexiwearHARExample Quick-start
 
+Tested on macOS. To get it working on Ubuntu, you will have to jump through some hoops to get Mercurial installed (need version >= 4.7, 4.5.2 is installed by default on Ubuntu 18.02).
+
 To get everything working, install the following:
 
   - [Python 3.7]
-  - [Mbed-cli]: follow instructions on page to install.
+  - [Mbed-cli]: follow instructions on page to install. Make sure you set up the `ARM_PATH`.
   - [uTensor-cli]: `pip install utensor_cgen` should work.
   - [CoolTerm]: for serial communication
 
 Once everything is installed, all you should need to do is:
 
 ```sh
+mbed deploy
+mbed add https://github.com/uTensor/uTensor 
 make all
 ```
+
+Known issue: if `mbed deploy` raises a `'utf-8' codec` error, refer to [this issue] for the fix.
 
 Then, just drag and drop the binary file located at `BUILD/HEXIWEAR/GCC_ARM-RELEASE/HexiwearHARExample.bin` to Hexiwear (`DAPLINK/`).
 
@@ -76,3 +82,4 @@ The variable `OUTPUT_NODE` should be the name of the output variable of the NN i
    [CoolTerm]: <http://freeware.the-meiers.org/>
    [this simple NN]: <https://blog.hackster.io/simple-neural-network-on-mcus-a7cbd3dc108c>
    [this article]: <https://developer.android.com/reference/android/hardware/SensorEvent.html#values>
+   [this issue]: <https://github.com/ARMmbed/mbed-cli/issues/859>

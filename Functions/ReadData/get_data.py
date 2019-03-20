@@ -65,8 +65,16 @@ def main(args):
 	# discard the index
 	data_only_lines = [line.split('//')[1] for line in data_lines]
 
+	OUTPUT = 'output/'
+	if not os.path.exists(os.path.dirname(OUTPUT)):
+    try:
+        os.makedirs(os.path.dirname(OUTPUT))
+    except OSError as exc: # Guard against race condition
+        if exc.errno != errno.EEXIST:
+            raise
+
 	# output file path + name. Probably assumes output/ path exists
-	fn = 'output/' + args.outputfile
+	fn = OUTPUT + args.outputfile
 	# if file doesn't exist, create new ("w"). Otherwise append ("a").
 	if(os.path.exists(fn + '_label.txt')):
 		aw = 'a'

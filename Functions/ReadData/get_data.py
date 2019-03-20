@@ -52,7 +52,7 @@ def main(args):
 				break
 
 	# only take string between start and end of data
-	data_start = "NOW.\n"
+	data_start = "NOW.\\n"
 	data_end = "STOP"
 	data_string = s[s.find(data_start) + len(data_start) : s.find(data_end)]
 

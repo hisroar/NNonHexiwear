@@ -67,11 +67,11 @@ def main(args):
 
     OUTPUT = 'output/'
     if not os.path.exists(os.path.dirname(OUTPUT)):
-    try:
-        os.makedirs(os.path.dirname(OUTPUT))
-    except OSError as exc: # Guard against race condition
-        if exc.errno != errno.EEXIST:
-            raise
+        try:
+            os.makedirs(os.path.dirname(OUTPUT))
+        except OSError as exc: # Guard against race condition
+            if exc.errno != errno.EEXIST:
+                raise
 
     # output file path + name. Probably assumes output/ path exists
     fn = OUTPUT + args.outputfile

@@ -73,3 +73,6 @@ It would be nice to sample data from all the sensors, not just the IMU sensors, 
    [STMCube.AI]: <https://blog.st.com/stm32cubeai-neural-networks/>
    [CMSIS-NN]: <https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/new-neural-network-kernels-boost-efficiency-in-microcontrollers-by-5x>
    [uTensor]: <https://github.com/uTensor/uTensor>
+   [Functions/]: <https://github.com/hisroar/NNonHexiwear/tree/master/Functions>
+   [HAR_TF_Example/]: <https://github.com/hisroar/NNonHexiwear/tree/master/HAR_TF_Example>
+   [HexiwearHARExample/]: <https://github.com/hisroar/NNonHexiwear/tree/master/HexiwearHARExample>

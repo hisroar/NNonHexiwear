@@ -63,11 +63,11 @@ After importing the data, we used it to train a deep NN (DNN = all layers fully 
 
 ### Shrinking and implementing
 
-uTensor was used to shrink the .pb file into C++ code to be run on Hexiwear. This code was added to an Mbed project. In the main loop of the project, the accelerometer and gyroscope data is sampled at 50 Hz, and of these data points are passed as input to the uTensor NN, which outputs the expected label for the data. Unfortunately, we did not evaluate the accuracy of the uTensor implementation on Hexiwear.
+uTensor was used to shrink the .pb file into C++ code to be run on Hexiwear. This code was added to an Mbed project. In the main loop of the project, the accelerometer and gyroscope data is sampled at 50 Hz, and 128 of these data points are passed as input to the uTensor NN, which outputs the expected label for the data. Unfortunately, we did not evaluate the accuracy of the uTensor implementation on Hexiwear.
 
 ## Future Directions
 
-It would be nice to sample data from all the sensors, not just the IMU sensors, and make it even easier to collect training data. Adding BLE functionality would also make data collection nice due to wireless. In addition, when uTensor implements more functions, this project could be updated to include different types of NNs that are often better than just DNNs. Lastly, the project could also be changed to be more platform generic so that NNs could be quickly implemented for a variety of Mbed devices.
+It would be nice to sample data from all the sensors, not just the IMU sensors, and make it even easier to collect training data. Adding BLE functionality would also make data collection easier and cable-free. In addition, when uTensor implements more functions, this project could be updated to include different types of NNs that are often better than just DNNs. Lastly, the project could also be changed to be more platform generic so that NNs could be quickly implemented for a variety of Mbed devices.
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 

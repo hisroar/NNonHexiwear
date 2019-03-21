@@ -34,9 +34,9 @@ Our goal in this project is to set up a work environment that has all the tools 
 
 ## Prior work
 
-  - STMCube.AI - [Link][STMCube.AI]: Map and run pre-trained NNs on STM32 microcontrollers.
-  - CMSIS-NN - [Link][CMSIS-NN]: A collection of efficient NN kernels to maximize performance and minimize memory footprint in ARM Cortex-M processors.
-  - uTensor - [Link][uTensor]: A machine learning framework for Mbed and Tensorflow that converts a NN into C++ code.
+[STMCube.AI]: Map and run pre-trained NNs on STM32 microcontrollers.
+[CMSIS-NN]: A collection of efficient NN kernels to maximize performance and minimize memory footprint in ARM Cortex-M processors.
+[uTensor]: A machine learning framework for Mbed and Tensorflow that converts a NN into C++ code.
 
 ## Technical Approach
 

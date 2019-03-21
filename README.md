@@ -1,6 +1,6 @@
 # NNonHexiwear
 
-A workflow to help get started on implementing neural networks on Hexiwear using Mbed. [Hexiwear] is chosen because of its rich sensor ecosystem. The Hexiwear docking station is probably necessary to flash the binary files from Mbed.
+An environment to help get started on implementing neural networks on Hexiwear using Mbed. [Hexiwear] is chosen because of its rich sensor ecosystem. The Hexiwear docking station is probably necessary to flash the binary files from Mbed.
 
 ### Included things
 
